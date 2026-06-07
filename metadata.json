@@ -1,0 +1,6 @@
+{
+  "name": "Betonika Concrete Factory",
+  "description": "سایت رسمی کارخانجات بتن آماده، تیرچه پیش‌تنیده و بلوک فوم بتن بتونیکا با سیستم برآورد قیمت هوشمند و دستیار فنی هوش مصنوعی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
