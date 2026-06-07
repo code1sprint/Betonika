@@ -5,14 +5,20 @@
 
 import { Product, Project } from "./types";
 
-// Dynamic imported image paths
+import heroBanner from "./assets/images/hero_factory_banner_1780422093954.png";
+import readyMix from "./assets/images/ready_mix_concrete_1780422110630.png";
+import prestressedJoist from "./assets/images/prestressed_joist_1780422124019.png";
+import foamBlock from "./assets/images/foam_concrete_block_1780422137665.png";
+import concreteCurb from "./assets/images/concrete_curb_1780422151513.png";
+import hollowCore from "./assets/images/hollow_core_block_1780422167449.png";
+
 export const IMAGES = {
-  heroBanner: "/src/assets/images/hero_factory_banner_1780422093954.png",
-  readyMix: "/src/assets/images/ready_mix_concrete_1780422110630.png",
-  prestressedJoist: "/src/assets/images/prestressed_joist_1780422124019.png",
-  foamBlock: "/src/assets/images/foam_concrete_block_1780422137665.png",
-  concreteCurb: "/src/assets/images/concrete_curb_1780422151513.png",
-  hollowCore: "/src/assets/images/hollow_core_block_1780422167449.png",
+  heroBanner,
+  readyMix,
+  prestressedJoist,
+  foamBlock,
+  concreteCurb,
+  hollowCore,
 };
 
 export const productsList: Product[] = [
