@@ -1,102 +1,102 @@
-# بتونیکا (BETONIKA)
+# Betonika (BETONIKA)
 
-سایت رسمی کارخانجات بتن آماده، تیرچه پیش‌تنیده و بلوک فوم بتن **بتونیکا** — یک وب‌اپلیکیشن تمام‌عیار با رابط کاربری فارسی (RTL)، ابزارهای برآورد فنی، سامانه استعلام قیمت و مشاور هوشمند مبتنی بر هوش مصنوعی.
+Official website for Betonika Concrete Factory — a full-stack web application featuring a Persian (RTL) user interface, technical estimation tools, a quotation request system, and an AI-powered engineering consultant.
 
-**[مشاهده دمو زنده](https://code1sprint.github.io/Betonika/)**
-
----
-
-## نمای کلی
-
-بتونیکا یک پلتفرم دیجیتال صنعتی برای معرفی محصولات بتنی، محاسبه آنلاین مصالح ساختمانی، ثبت درخواست پیش‌فاکتور و مشاوره فنی به مهندسان عمران و پیمانکاران است. طراحی رابط کاربری با الهام از زیبایی‌شناسی صنعتی-مدرن (Industrial Minimalism) انجام شده و تجربه‌ای حرفه‌ای برای مخاطبان فنی فراهم می‌کند.
+**[Live Demo](https://code1sprint.github.io/Betonika/)**
 
 ---
 
-## اسکرین‌شات‌ها
+## Overview
 
-### صفحه اصلی — Hero و معرفی محصولات
-
-![صفحه اصلی بتونیکا](src/assets/images/Betonika1.png)
-
-صفحه فرود با پس‌زمینه کارخانه صنعتی، معرفی خط تولید، کارت‌های پنج‌گانه محصولات (بتن آماده، تیرچه پیش‌تنیده، بلوک فوم بتن، جدول بتنی، دال مجوف) و نوار آمار کلیدی شرکت.
-
-### صفحه محصولات — کاتالوگ فنی
-
-![صفحه محصولات](src/assets/images/Betonika2.png)
-
-نمایش جزئیات هر محصول شامل توضیحات، قیمت پایه کارخانه، مزایای فنی، جدول مشخصات و دکمه‌های اقدام (برآورد متراژ / دریافت فاکتور).
-
-### سامانه محاسبه هوشمند مصالح
-
-![محاسبه‌گر مصالح](src/assets/images/Betonika3.png)
-
-ابزار تعاملی برآورد حجم بتن فونداسیون، سقف تیرچه-فوم و بلوک دیوار با اسلایدر ابعاد، انتخاب عیار بتن، تخمین وزن مرده، تعداد تراک میکسر و هزینه تقریبی — با امکان انتقال مستقیم به پیش‌فاکتور.
-
-### شبیه‌ساز آزمایشگاه و تضمین کیفیت
-
-![شبیه‌ساز مقاومت فشاری](src/assets/images/Betonika4.png)
-
-بخش تضمین کیفیت مهندسی و شبیه‌ساز تعاملی تست مقاومت فشاری بتن (ASTM C39 / ISIRI 3206) با انتخاب رده بتن، دوره کیورینگ و محاسبه تنش فشاری.
+Betonika is an industrial digital platform for showcasing concrete products, calculating construction materials online, submitting quotation requests, and providing technical consulting to civil engineers and contractors. The UI follows a modern industrial aesthetic (Industrial Minimalism) and delivers a professional experience for technical audiences.
 
 ---
 
-## ویژگی‌های کلیدی
+## Screenshots
 
-| بخش | توضیح |
-|-----|-------|
-| **صفحه اصلی** | Hero با افکت Parallax، کارت‌های محصول، آمار شرکت، نوار پیشرفت اسکرول |
-| **محصولات** | کاتالوگ ۵ محصول با مشخصات فنی، قیمت و ویژگی‌های تولیدی |
-| **مشاور هوشمند AI** | چت‌بات فنی مبتنی بر Gemini برای پاسخ به سوالات مهندسی عمران |
-| **محاسبه‌گر مصالح** | برآورد بتن، تیرچه و بلوک با فرمول‌های مهندسی و قیمت‌گذاری لحظه‌ای |
-| **پرتال پیش‌فاکتور** | ثبت درخواست قیمت، پیگیری وضعیت و اتصال به محاسبه‌گر |
-| **پروژه‌ها** | گالری پروژه‌های انجام‌شده و در حال اجرا |
-| **درباره ما / تماس** | معرفی شرکت، فرم تماس و اطلاعات ارتباطی |
-| **ابزارهای تعاملی** | گردش کار بچینگ، شبیه‌ساز آزمایشگاه، FAQ فنی |
-| **راهنمای سریع** | پنل کشویی (Drawer) با اطلاعات تماس و استانداردها |
+### Home Page — Hero and Product Showcase
 
----
+![Betonika Home Page](src/assets/images/Betonika1.png)
 
-## فناوری‌های استفاده‌شده
+Landing page with an industrial factory background, production line introduction, five product cards (ready-mix concrete, prestressed joists, foam concrete blocks, concrete curbs, hollow-core slabs), and a key company statistics bar.
 
-### فرانت‌اند
-- **React 19** — رابط کاربری کامپوننت‌محور
-- **TypeScript** — تایپ‌گذاری ایمن
-- **Vite 6** — بیلد و توسعه سریع
-- **Tailwind CSS 4** — استایل‌دهی Utility-first
-- **Motion** — انیمیشن‌ها و ترنزیشن‌ها
-- **Lucide React** — آیکون‌ها
+### Products Page — Technical Catalog
 
-### بک‌اند
-- **Express.js** — سرور Node.js
-- **Google Gemini API** (`@google/genai`) — مشاور هوشمند فنی
-- **esbuild** — باندل سرور برای پروداکشن
+![Betonika Products Page](src/assets/images/Betonika2.png)
 
-### استقرار
-- **GitHub Actions** — CI/CD خودکار
-- **GitHub Pages** — هاست استاتیک فرانت‌اند
+Detailed product view including descriptions, factory base pricing, technical advantages, specification tables, and action buttons (estimate quantity / request invoice).
+
+### Smart Material Estimation System
+
+![Material Calculator](src/assets/images/Betonika3.png)
+
+Interactive tool for estimating foundation concrete, joist-foam roof, and wall block volumes with dimension sliders, concrete grade selection, dead load estimates, mixer truck counts, and approximate costs — with direct transfer to the quotation form.
+
+### Laboratory Simulator and Quality Assurance
+
+![Compressive Strength Simulator](src/assets/images/Betonika4.png)
+
+Engineering quality assurance section and an interactive concrete compressive strength test simulator (ASTM C39 / ISIRI 3206) with concrete grade selection, curing period, and stress calculation.
 
 ---
 
-## ساختار پروژه
+## Key Features
+
+| Section | Description |
+|---------|-------------|
+| **Home** | Parallax hero, product cards, company stats, scroll progress bar |
+| **Products** | Catalog of 5 products with technical specs, pricing, and production features |
+| **AI Consultant** | Gemini-powered chatbot for civil engineering questions |
+| **Material Calculator** | Concrete, joist, and block estimation with engineering formulas and live pricing |
+| **Quotation Portal** | Quote request submission, status tracking, and calculator integration |
+| **Projects** | Gallery of completed and ongoing projects |
+| **About / Contact** | Company profile, contact form, and contact information |
+| **Interactive Tools** | Batching workflow, lab simulator, technical FAQ |
+| **Quick Guide** | Slide-out drawer with contact info and standards |
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React 19** — Component-based UI
+- **TypeScript** — Type-safe development
+- **Vite 6** — Fast build and dev server
+- **Tailwind CSS 4** — Utility-first styling
+- **Motion** — Animations and transitions
+- **Lucide React** — Icons
+
+### Backend
+- **Express.js** — Node.js server
+- **Google Gemini API** (`@google/genai`) — AI engineering consultant
+- **esbuild** — Server bundling for production
+
+### Deployment
+- **GitHub Actions** — Automated CI/CD
+- **GitHub Pages** — Static frontend hosting
+
+---
+
+## Project Structure
 
 ```
 Betonika/
 ├── .github/workflows/
-│   └── deploy-pages.yml      # استقرار خودکار روی GitHub Pages
+│   └── deploy-pages.yml      # Automated GitHub Pages deployment
 ├── src/
-│   ├── assets/images/        # تصاویر محصولات و اسکرین‌شات‌ها
+│   ├── assets/images/        # Product images and screenshots
 │   ├── components/
-│   │   ├── AiConsultant.tsx          # مشاور هوشمند AI
-│   │   ├── MaterialCalculator.tsx    # محاسبه‌گر مصالح
-│   │   ├── QuotationPortal.tsx       # پرتال پیش‌فاکتور
+│   │   ├── AiConsultant.tsx          # AI engineering consultant
+│   │   ├── MaterialCalculator.tsx    # Material estimator
+│   │   ├── QuotationPortal.tsx       # Quotation portal
 │   │   ├── HeroInteractiveCockpit.tsx
-│   │   └── HomeExtraSections.tsx     # گردش کار، آزمایشگاه، FAQ
-│   ├── App.tsx               # لایه اصلی و مسیریابی تب‌ها
-│   ├── data.ts               # داده محصولات، پروژه‌ها و آمار
-│   ├── types.ts              # تایپ‌های TypeScript
+│   │   └── HomeExtraSections.tsx     # Workflow, lab, FAQ
+│   ├── App.tsx               # Main layout and tab navigation
+│   ├── data.ts               # Products, projects, and stats data
+│   ├── types.ts              # TypeScript types
 │   ├── main.tsx
 │   └── index.css
-├── server.ts                 # سرور Express + API + Vite middleware
+├── server.ts                 # Express server + API + Vite middleware
 ├── vite.config.ts
 ├── package.json
 └── .env.example
@@ -104,85 +104,85 @@ Betonika/
 
 ---
 
-## راه‌اندازی محلی
+## Local Setup
 
-### پیش‌نیازها
+### Prerequisites
 
-- Node.js 20 یا بالاتر
+- Node.js 20 or higher
 - npm
 
-### نصب و اجرا
+### Install and Run
 
 ```bash
-# کلون مخزن
+# Clone the repository
 git clone https://github.com/code1sprint/Betonika.git
 cd Betonika
 
-# نصب وابستگی‌ها
+# Install dependencies
 npm install
 
-# کپی فایل محیطی و تنظیم کلید API
+# Copy environment file and set API key
 cp .env.example .env
-# مقدار GEMINI_API_KEY را در فایل .env قرار دهید
+# Set GEMINI_API_KEY in the .env file
 
-# اجرای سرور توسعه (فرانت + بک‌اند روی پورت ۳۰۰۰)
+# Start development server (frontend + backend on port 3000)
 npm run dev
 ```
 
-سپس مرورگر را باز کنید: [http://localhost:3000](http://localhost:3000)
+Then open your browser at [http://localhost:3000](http://localhost:3000)
 
-### اسکریپت‌های موجود
+### Available Scripts
 
-| دستور | کاربرد |
-|-------|--------|
-| `npm run dev` | اجرای سرور توسعه با Vite HMR |
-| `npm run build` | بیلد پروداکشن (فرانت + سرور) |
-| `npm run build:pages` | بیلد استاتیک برای GitHub Pages |
-| `npm run start` | اجرای سرور پروداکشن |
-| `npm run lint` | بررسی تایپ‌ها با TypeScript |
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with Vite HMR |
+| `npm run build` | Production build (frontend + server) |
+| `npm run build:pages` | Static build for GitHub Pages |
+| `npm run start` | Run production server |
+| `npm run lint` | Type-check with TypeScript |
 
 ---
 
-## متغیرهای محیطی
+## Environment Variables
 
-| متغیر | الزامی | توضیح |
-|-------|--------|-------|
-| `GEMINI_API_KEY` | خیر* | کلید API گوگل Gemini برای مشاور هوشمند |
-| `APP_URL` | خیر | آدرس هاست اپلیکیشن |
-| `NODE_ENV` | خیر | `production` در حالت پروداکشن |
-| `VITE_BASE_PATH` | خیر | مسیر پایه برای GitHub Pages (پیش‌فرض: `/Betonika/`) |
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GEMINI_API_KEY` | No* | Google Gemini API key for the AI consultant |
+| `APP_URL` | No | Application host URL |
+| `NODE_ENV` | No | Set to `production` in production mode |
+| `VITE_BASE_PATH` | No | Base path for GitHub Pages (default: `/Betonika/`) |
 
-> \* بدون `GEMINI_API_KEY` مشاور AI با پاسخ‌های پیش‌فرض (Fallback) کار می‌کند.
+> \* Without `GEMINI_API_KEY`, the AI consultant falls back to predefined responses.
 
 ---
 
 ## API Endpoints
 
-| متد | مسیر | توضیح |
-|-----|------|-------|
-| `GET` | `/api/health` | بررسی وضعیت سرور |
-| `POST` | `/api/chat` | ارسال پیام به مشاور Gemini |
-| `POST` | `/api/quote` | ثبت درخواست پیش‌فاکتور |
-| `GET` | `/api/quotes` | دریافت لیست درخواست‌ها |
-| `POST` | `/api/contact` | ارسال فرم تماس |
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/api/health` | Server health check |
+| `POST` | `/api/chat` | Send message to Gemini consultant |
+| `POST` | `/api/quote` | Submit quotation request |
+| `GET` | `/api/quotes` | List quotation requests |
+| `POST` | `/api/contact` | Submit contact form |
 
 ---
 
-## استقرار
+## Deployment
 
-### GitHub Pages (فرانت‌اند استاتیک)
+### GitHub Pages (Static Frontend)
 
-با هر Push به شاخه `main`، workflow خودکار اجرا می‌شود:
+On every push to the `main` branch, the workflow automatically:
 
-1. `npm ci`
-2. `npm run build:pages` (با `VITE_BASE_PATH=/Betonika/`)
-3. آپلود `dist/` به GitHub Pages
+1. Runs `npm ci`
+2. Runs `npm run build:pages` (with `VITE_BASE_PATH=/Betonika/`)
+3. Uploads `dist/` to GitHub Pages
 
-**آدرس دمو:** [https://code1sprint.github.io/Betonika/](https://code1sprint.github.io/Betonika/)
+**Demo URL:** [https://code1sprint.github.io/Betonika/](https://code1sprint.github.io/Betonika/)
 
-> توجه: نسخه GitHub Pages فقط فرانت‌اند استاتیک است. APIهای بک‌اند (چت AI، ثبت پیش‌فاکتور) در این حالت در دسترس نیستند مگر سرور جداگانه‌ای مستقر شود.
+> Note: The GitHub Pages deployment serves only the static frontend. Backend APIs (AI chat, quotation submission) are not available unless a separate server is deployed.
 
-### پروداکشن کامل (فرانت + بک‌اند)
+### Full Production (Frontend + Backend)
 
 ```bash
 npm run build
@@ -191,19 +191,19 @@ NODE_ENV=production npm run start
 
 ---
 
-## محصولات پشتیبانی‌شده
+## Supported Products
 
-1. **بتن آماده** — رده‌های C20 تا C50، عیار ۳۰۰ تا ۵۰۰
-2. **تیرچه پیش‌تنیده** — دهانه تا ۱۲ متر، وایرهای PC
-3. **بلوک فوم بتن** — عایق حرارتی و صوتی، سبک‌وزن
-4. **جدول بتنی** — پرس ویبره‌ای، مقاوم در برابر یخبندان
-5. **دال مجوف (هالوکور)** — سقف پیش‌ساخته صنعتی
+1. **Ready-Mix Concrete** — Grades C20 to C50, cement content 300 to 500 kg/m3
+2. **Prestressed Joists** — Spans up to 12 meters, PC wires
+3. **Foam Concrete Blocks** — Thermal and acoustic insulation, lightweight
+4. **Concrete Curbs** — Vibration-pressed, freeze-thaw resistant
+5. **Hollow-Core Slabs** — Industrial precast floor panels
 
 ---
 
-## مجوز
+## License
 
-این پروژه تحت مجوز [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) منتشر شده است.
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ---
 
